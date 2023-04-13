@@ -19,3 +19,12 @@
 [submodule "pyincore-viz"]
 	path = pyincore-viz
 	url = https://github.com/IN-CORE/pyincore-viz
+[submodule "incore-auth"]
+	path = incore-auth
+	url = https://github.com/IN-CORE/incore-auth
+[submodule "incore-helm"]
+	path = incore-helm
+	url = https://github.com/IN-CORE/incore-helm
+[submodule "plotting-service"]
+	path = plotting-service
+	url = https://github.com/IN-CORE/plotting-service

@@ -1,6 +1,15 @@
 #!/bin/bash
 
-for dir in $(jq -r 'keys[]' tags.json); do
+sed -i~ -e '/^## Current Release/,$d' README.md
+echo "## Current Release" >> README.md
+echo "" >> README.md
+echo "This is the list of releases for IN-CORE $(jq -r '."in-core"' tags.json)" >> README.md
+echo "" >> README.md
+echo "| module | version |" >> README.md
+echo "| ------ | ------- |" >> README.md
+
+for dir in $(jq -r 'keys[]' tags.json | sort); do
+  if [ "$dir" == "in-core" ]; then continue; fi
   tag=$(jq -r ".\"$dir\"" tags.json)
   if [ "$tag" == "null" ]; then
     echo "[$dir] missing tag"
@@ -14,6 +23,7 @@ for dir in $(jq -r 'keys[]' tags.json); do
     rm README.md~
     (cd $dir; git checkout $tag)
   fi
+  echo "| ${dir} | ${tag} |" >> README.md
 done
 
 git submodule status
