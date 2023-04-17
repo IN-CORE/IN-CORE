@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           submodules: true
-          token: ${{ GH_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: get release info
         id: release_info
@@ -50,4 +50,4 @@ jobs:
         with:
           tag: ${{ steps.release_info.outputs.version }}
           body: ${{ steps.release_info.outputs.changelog }}
-          token: ${{ GH_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
