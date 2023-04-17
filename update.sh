@@ -8,6 +8,7 @@ echo "" >> README.md
 echo "| module | version |" >> README.md
 echo "| ------ | ------- |" >> README.md
 
+git submodule update --remote
 for dir in $(jq -r 'keys[]' tags.json | sort); do
   if [ "$dir" == "in-core" ]; then continue; fi
   tag=$(jq -r ".\"$dir\"" tags.json)
