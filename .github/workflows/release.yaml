@@ -28,7 +28,20 @@ jobs:
         id: release_info
         run: |
           version="$(jq -r '."in-core"' tags.json | sed 's/^v//')"
-          changelog="$(sed -e "1,/^## [${version}]/d" -e "/^##/,\$d" -e '/^$/d' CHANGELOG.md)"
+          echo "IN-CORE Release ${version}" > _changelog.md
+          echo "" >> _changelog.md
+          sed -e "1,/^## [${version}]/d" -e "/^##/,\$d" -e '/^$/d' CHANGELOG.md >> _changelog.md
+          echo "" >> _changelog.md
+          echo "### versions" >> _changelog.md
+          echo "| module | version |" >> _changelog.md
+          echo "| ------ | ------- |" >> _changelog.md
+          for dir in $(jq -r 'keys[]' tags.json | sort); do
+            echo "| ${dir} | ${tag} |" >> _changelog.md
+          done
+          cat _changelog.md
+          changelog=$(cat _changelog.md)
+          rm _changelog.md
+
           changelog="${changelog//'%'/'%25'}"
           changelog="${changelog//$'\n'/'%0A'}"
           changelog="${changelog//$'\r'/'%0D'}"
