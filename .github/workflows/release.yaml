@@ -20,7 +20,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          submodules: true
+          submodules: 'recursive'
+          fetch-depth: 0
           token: ${{ secrets.GH_TOKEN }}
 
       - name: get release info
