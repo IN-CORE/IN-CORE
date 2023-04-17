@@ -1,6 +1,6 @@
 {
   "in-core": "v3.7.0",
-  "incore-auth": "1.6.0",
+  "incore-auth": "1.5.0",
   "incore-docs": "v3.7.0",
   "incore-helm": "1.14.0",
   "incore-lab": "v0.5.4",
