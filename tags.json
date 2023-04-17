@@ -1,0 +1,13 @@
+{
+  "in-core": "v3.7.0",
+  "incore-auth": "1.5.0",
+  "incore-docs": "v3.7.0",
+  "incore-helm": "1.14.0",
+  "incore-lab": "v0.5.4",
+  "incore-services": "v1.12.0",
+  "incore-ui": "v1.4.0",
+  "plotting-service": "",
+  "pyincore": "v1.8.0",
+  "pyincore-viz": "v1.8.1",
+  "pyincore-data": "0.5.2"
+}

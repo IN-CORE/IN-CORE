@@ -1,0 +1,30 @@
+[submodule "incore-docs"]
+	path = incore-docs
+	url = https://github.com/IN-CORE/incore-docs
+[submodule "incore-lab"]
+	path = incore-lab
+	url = https://github.com/IN-CORE/incore-lab
+[submodule "incore-services"]
+	path = incore-services
+	url = https://github.com/IN-CORE/incore-services
+[submodule "incore-ui"]
+	path = incore-ui
+	url = https://github.com/IN-CORE/incore-ui
+[submodule "pyincore"]
+	path = pyincore
+	url = https://github.com/IN-CORE/pyincore
+[submodule "pyincore-data"]
+	path = pyincore-data
+	url = https://github.com/IN-CORE/pyincore-data
+[submodule "pyincore-viz"]
+	path = pyincore-viz
+	url = https://github.com/IN-CORE/pyincore-viz
+[submodule "incore-auth"]
+	path = incore-auth
+	url = https://github.com/IN-CORE/incore-auth
+[submodule "incore-helm"]
+	path = incore-helm
+	url = https://github.com/IN-CORE/incore-helm
+[submodule "plotting-service"]
+	path = plotting-service
+	url = https://github.com/IN-CORE/plotting-service

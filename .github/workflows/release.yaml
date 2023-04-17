@@ -1,0 +1,67 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+
+env:
+  MAIN_REPO: IN-CORE/IN-CORE
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          submodules: 'recursive'
+          fetch-depth: 0
+          token: ${{ secrets.GH_TOKEN }}
+
+      - name: get release info
+        id: release_info
+        run: |
+          version="$(jq -r '."in-core"' tags.json | sed 's/^v//')"
+          echo "# IN-CORE Release ${version}" > _changelog.md
+          echo "" >> _changelog.md
+          sed -e "1,/^## \[${version}\]/d" -e "/^##/,\$d" -e '/^$/d' CHANGELOG.md >> _changelog.md
+          echo "" >> _changelog.md
+          echo "### versions" >> _changelog.md
+          echo "| module | version |" >> _changelog.md
+          echo "| ------ | ------- |" >> _changelog.md
+          for dir in $(jq -r 'keys[]' tags.json | sort); do
+            tag=$(jq -r ".\"$dir\"" tags.json)
+            echo "| ${dir} | ${tag} |" >> _changelog.md
+          done
+          changelog=$(cat _changelog.md)
+          rm _changelog.md
+          changelog="${changelog//'%'/'%25'}"
+          changelog="${changelog//$'\n'/'%0A'}"
+          changelog="${changelog//$'\r'/'%0D'}"
+
+          echo "version=${version}" >> $GITHUB_OUTPUT
+          echo "changelog=$changelog" >> $GITHUB_OUTPUT
+
+      - name: check tags
+        run: |
+          ./update.sh
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "updating the repo resulted in changes, please run update.sh and commit"
+            git status --porcelain
+            exit 1
+          fi
+
+      - name: create release
+        if: github.event_name != 'pull_request' && github.repository == env.MAIN_REPO
+        uses: ncipollo/release-action@v1
+        id: release
+        with:
+          tag: ${{ steps.release_info.outputs.version }}
+          body: ${{ steps.release_info.outputs.changelog }}
+          token: ${{ secrets.GH_TOKEN }}
