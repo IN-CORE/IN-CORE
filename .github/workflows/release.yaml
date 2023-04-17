@@ -1,0 +1,42 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+
+env:
+  MAIN_REPO: IN-CORE/IN-CORE
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: get release info
+        id: release_info
+        run: |
+          version="$(jq -r '."in-core"' tags.json | sed 's/^v//')"
+          changelog="$(sed -e "1,/^## [${version}]/d" -e "/^##/,\$d" -e '/^$/d' CHANGELOG.md)"
+          changelog="${changelog//'%'/'%25'}"
+          changelog="${changelog//$'\n'/'%0A'}"
+          changelog="${changelog//$'\r'/'%0D'}"
+          echo "::set-output name=version::$version"
+          echo "::set-output name=changelog::$changelog"
+
+      - name: create release
+        if: github.event_name != 'pull_request' && github.repository == env.MAIN_REPO
+        uses: ncipollo/release-action@v1
+        id: release
+        with:
+          tag: ${{ steps.release_info.outputs.version }}
+          body: ${{ steps.release_info.outputs.changelog }}
