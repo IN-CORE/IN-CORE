@@ -33,6 +33,15 @@ jobs:
           echo "::set-output name=version::$version"
           echo "::set-output name=changelog::$changelog"
 
+      - name: check tags
+        run: |
+          ./update.sh
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "there are changes";
+            git status --porcelain
+            exit 1
+          fi
+
       - name: create release
         if: github.event_name != 'pull_request' && github.repository == env.MAIN_REPO
         uses: ncipollo/release-action@v1
