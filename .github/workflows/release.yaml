@@ -39,13 +39,13 @@ jobs:
             tag=$(jq -r ".\"$dir\"" tags.json)
             echo "| ${dir} | ${tag} |" >> _changelog.md
           done
-          cat _changelog.md
           changelog=$(cat _changelog.md)
+          echo "::debug ${changelog}"
           rm _changelog.md
           changelog="${changelog//'%'/'%25'}"
           changelog="${changelog//$'\n'/'%0A'}"
           changelog="${changelog//$'\r'/'%0D'}"
-          
+
           echo "version=${version}" >> $GITHUB_OUTPUT
           echo "changelog=$changelog" >> $GITHUB_OUTPUT
 
@@ -53,7 +53,7 @@ jobs:
         run: |
           ./update.sh
           if [ -n "$(git status --porcelain)" ]; then
-            echo "there are changes";
+            echo "::error updating the repo resulted in changes, please run update.sh and commit"
             git status --porcelain
             exit 1
           fi
