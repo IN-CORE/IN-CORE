@@ -40,7 +40,6 @@ jobs:
             echo "| ${dir} | ${tag} |" >> _changelog.md
           done
           changelog=$(cat _changelog.md)
-          echo "::debug ${changelog}"
           rm _changelog.md
           changelog="${changelog//'%'/'%25'}"
           changelog="${changelog//$'\n'/'%0A'}"
@@ -53,7 +52,7 @@ jobs:
         run: |
           ./update.sh
           if [ -n "$(git status --porcelain)" ]; then
-            echo "::error updating the repo resulted in changes, please run update.sh and commit"
+            echo "updating the repo resulted in changes, please run update.sh and commit"
             git status --porcelain
             exit 1
           fi
