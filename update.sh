@@ -23,9 +23,11 @@ for dir in $(jq -r 'keys[]' tags.json | sort); do
     sed -i~ "s/^| $dir | .* |$/| $dir | $tag |/" README.md
     rm README.md~
     (cd $dir; git checkout $tag)
+    git add $dir
   fi
   echo "| ${dir} | ${tag} |" >> README.md
 done
 
+git add README.md tags.json
 git submodule status
 git status
