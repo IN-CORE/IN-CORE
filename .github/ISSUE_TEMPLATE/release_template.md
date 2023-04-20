@@ -8,7 +8,7 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 ### incore-auth
 - Maintainer: Yong Wook Kim
 - Version number:
-- [ ] This will not be released in this release
+- [ ] <strong>This will not be released in this release</strong>
 - [ ] Merge all the necessary branches or PRs to develop branch
 - [ ] Create release branch from develop branch
 - [ ] Deploy release branch to dev cluster and test
@@ -18,7 +18,7 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 ### incore-docs
 - Maintainer: Chris Navarro
 - Version number:
-- [ ] This will not be released in this release
+- [ ] <strong>This will not be released in this release</strong>
 - [ ] Merge all the necessary branches or PRs to develop branch
 - [ ] Create release branch from develop branch
 - [ ] Deploy release branch to dev cluster and test all the components
@@ -28,7 +28,7 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 ### incore-helm
 - Maintainer: Yong Wook Kim
 - Version number:
-- [ ] This will not be released in this release
+- [ ] <strong>This will not be released in this release</strong>
 - [ ] Merge all the necessary PRs to develop branch or update develop branch
 - [ ] Update all the necessary tags and other information in value file
 - [ ] Deploy components in the dev cluster and test
@@ -38,7 +38,7 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 ### incore-services
 - Maintainer: Chris Navarro
 - Version number:
-- [ ] This will not be released in this release
+- [ ] <strong>This will not be released in this release</strong>
 - [ ] Merge all the necessary branches or PRs to develop branch
 - [ ] Create release branch from develop branch
 - [ ] Deploy release branch to dev cluster and test all the components
@@ -48,7 +48,7 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 ### maestro-service
 - Maintainer: Chen Wang
 - Version number:
-- [ ] This will not be released in this release
+- [ ] <strong>This will not be released in this release</strong>
 - [ ] Merge all the necessary branches or PRs to develop branch
 - [ ] Create release branch from develop branch
 - [ ] Deploy release branch to dev cluster and test
@@ -58,7 +58,7 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 ### plotting-service
 - Maintainer: Chen Wang
 - Version number:
-- [ ] This will not be released in this release
+- [ ] <strong>This will not be released in this release</strong>
 - [ ] Merge all the necessary branches or PRs to develop branch
 - [ ] Create release branch from develop branch
 - [ ] Deploy release branch to dev cluster and test
@@ -68,7 +68,7 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 ### incore-lab
 - Maintainer: Yong Wook Kim
 - Version number:
-- [ ] This will not be released in this release
+- [ ] <strong>This will not be released in this release</strong>
 - [ ] Merge all the necessary branches or PRs to develop branch
 - [ ] Create release branch from develop branch
 - [ ] Build incore-lab using the rc versions
@@ -80,7 +80,7 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 ### incore-datawolf
 - Maintainer: Yong Wook Kim
 - Version number:
-- [ ] This will not be released in this release
+- [ ] <strong>This will not be released in this release</strong>
 - [ ] Create datawolf with rc versioned pyincore
 - [ ] Deploy rc datawolf to dev cluster and test
 - [ ] Create datawolf with released pyincore
@@ -88,7 +88,7 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 ### incore-data-release
 - Maintainer: Yong Wook Kim
 - Version number:
-- [ ] This will not be released in this release
+- [ ] <strong>This will not be released in this release</strong>
 - [ ] Merge all the necessary branches or PRs to develop branch
 - [ ] Create release branch from develop branch
 - [ ] Deploy release branch to dev cluster and test
@@ -98,7 +98,7 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 ### pyincore
 - Maintainer: Chen Wang
 - Version number:
-- [ ] This will not be released in this release
+- [ ] <strong>This will not be released in this release</strong>
 - [ ] Merge all the necessary branches or PRs to develop branch
 - [ ] Create release branch from develop branch
 - [ ] Release rc versioned pyincore and test
@@ -110,7 +110,7 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 ### pyincore-viz
 - Maintainer: Yong Wook Kim
 - Version number:
-- [ ] This will not be released in this release
+- [ ] <strong>This will not be released in this release</strong>
 - [ ] Merge all the necessary branches or PRs to develop branch
 - [ ] Create release branch from develop branch
 - [ ] Release rc versioned pyincore-viz and test
@@ -122,7 +122,7 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 ### pyincore-data
 - Maintainer: Yong Wook Kim
 - Version number:
-- [ ] This will not be released in this release
+- [ ] <strong>This will not be released in this release</strong>
 - [ ] Merge all the necessary branches or PRs to develop branch
 - [ ] Create release branch from develop branch
 - [ ] Release rc versioned pyincore-data and test
