@@ -13,6 +13,7 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 - [ ] Create release branch from develop branch
 - [ ] Deploy release branch to dev cluster and test
 - [ ] Merge release branch to main (do not use squash merge)
+- [ ] Create release
 - [ ] Merge back main branch to develop branch
 
 ### incore-docs
@@ -23,6 +24,7 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 - [ ] Create release branch from develop branch
 - [ ] Deploy release branch to dev cluster and test all the components
 - [ ] Merge release branch to main (do not use squash merge)
+- [ ] Create release
 - [ ] Merge back main branch to develop branch
 
 ### incore-helm
@@ -33,6 +35,7 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 - [ ] Update all the necessary tags and other information in value file
 - [ ] Deploy components in the dev cluster and test
 - [ ] Merge develop branch to main (do not use squash merge)
+- [ ] Create release
 - [ ] Merge back main branch to develop branch
 
 ### incore-services
@@ -43,6 +46,7 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 - [ ] Create release branch from develop branch
 - [ ] Deploy release branch to dev cluster and test all the components
 - [ ] Merge release branch to main (do not use squash merge)
+- [ ] Create release
 - [ ] Merge back main branch to develop branch
 
 ### maestro-service
@@ -53,6 +57,7 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 - [ ] Create release branch from develop branch
 - [ ] Deploy release branch to dev cluster and test
 - [ ] Merge release branch to main (do not use squash merge)
+- [ ] Create release
 - [ ] Merge back main branch to develop branch
 
 ### plotting-service
@@ -63,6 +68,7 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 - [ ] Create release branch from develop branch
 - [ ] Deploy release branch to dev cluster and test
 - [ ] Merge release branch to main (do not use squash merge)
+- [ ] Create release
 - [ ] Merge back main branch to develop branch
 
 ### incore-lab
@@ -74,6 +80,7 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 - [ ] Build incore-lab using the rc versions
 - [ ] Deploy rc based incore-lab to dev cluster and test
 - [ ] Merge release branch to main (do not use squash merge) 
+- [ ] Create release
 - [ ] Build incore-lab with released pyincore products
 - [ ] Merge back main branch to develop branch
 
@@ -93,6 +100,7 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 - [ ] Create release branch from develop branch
 - [ ] Deploy release branch to dev cluster and test
 - [ ] Merge release branch to main (do not use squash merge)
+- [ ] Create release
 - [ ] Merge back main branch to develop branch
 
 ### pyincore
@@ -115,7 +123,7 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 - [ ] Create release branch from develop branch
 - [ ] Release rc versioned pyincore-viz and test
 - [ ] Deploy release branch's doc to dev cluster and test
-- [ ] Merge release branch to main (do not use squash merge) 
+- [ ] Merge release branch to main (do not use squash merge)
 - [ ] Release pyincore-viz
 - [ ] Merge back main branch to develop branch
 
