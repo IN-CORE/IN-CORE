@@ -28,12 +28,3 @@
 [submodule "plotting-service"]
 	path = plotting-service
 	url = https://github.com/IN-CORE/plotting-service
-[submodule "SLC-playbook"]
-	path = SLC-playbook
-	url = https://github.com/IN-CORE/SLC-playbook
-[submodule "incore-playbook"]
-	path = incore-playbook
-	url = https://github.com/IN-CORE/incore-playbook
-[submodule "maestro-service"]
-	path = maestro-service
-	url = https://github.com/IN-CORE/maestro-service

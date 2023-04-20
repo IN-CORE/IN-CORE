@@ -20,15 +20,12 @@ This is the list of releases for IN-CORE v4.0.0
 
 | module | version |
 | ------ | ------- |
-| SLC-playbook | v0.1.1 |
 | incore-auth | 1.6.0 |
 | incore-docs | v4.0.0 |
 | incore-helm | 1.15.0 |
 | incore-lab | v0.5.4 |
-| incore-playbook | v0.4.0 |
 | incore-services | v1.13.2 |
 | incore-ui | v1.5.0 |
-| maestro-service | v1.0.0 |
 | plotting-service | v1.11.0 |
 | pyincore | v1.9.0 |
 | pyincore-data | v0.6.0 |
