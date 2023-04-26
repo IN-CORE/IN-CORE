@@ -6,7 +6,31 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 This repository links to each of the other repositories making up the IN-CORE code. You can find more details about the changes for  each of the components of IN-CORE in their respective repositories.
 
-## unreleased
+## [4.1.0] - 2023-04-24
+
+The currently released version of pyIncore has been published at PyPi. Note that it is not officially supported by the IN-CORE dev team and is only tested on the Linux platform. Please use it at your discretion. 
+
+Some highlights of this release are as follows:
+- pyIncore v1.10.0
+  - Added Galveston CGE analysis
+  - Updated calculation method to count functional buildings
+  - Fixed how Seaside and Joplin CGE analyses manage temporary files
+  - Updated IN-CORE client to be configured with connection parameters including timeout.
+- IN-CORE Web Tools v1.6.0
+  - Changed how release tags are fetched from the central IN-CORE repository
+- IN-CORE documentation v4.1.0
+  - Added an example notebook for Galveston community app
+  - Added documentation and example notebook for Galveston CGE analysis
+  - Updated the notebook for Salt Lake City community app  corresponding to other fixes
+
+New Datasets: 
+- Social vulnerability analysis
+  - National vulnerability averages - 63d178c2a011a9746c948115
+  - Demographic factors - 63d17d89c4b5713b9c0bb8c1 
+- Combined loss analysis for Galveston testbed
+  - Structural Cost Ratios - 63ff7b2b5c35c0353d5edeeb
+  - Content Cost Ratios - 63ff7b04a36332563d497cff 
+
 
 ## [4.0.0] - 2023-03-14
 

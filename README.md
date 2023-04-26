@@ -22,7 +22,7 @@ This is the list of releases for IN-CORE v4.1.0
 | ------ | ------- |
 | incore-auth | 1.6.0 |
 | incore-docs | v4.1.0 |
-| incore-helm | 1.16.0 |
+| incore-helm | 1.17.0 |
 | incore-lab | v0.6.1 |
 | incore-services | v1.13.1 |
 | incore-ui | v1.6.0 |
