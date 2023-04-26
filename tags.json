@@ -1,13 +1,13 @@
 {
-  "in-core": "v4.0.0",
+  "in-core": "v4.1.0",
   "incore-auth": "1.6.0",
-  "incore-docs": "v4.0.0",
-  "incore-helm": "1.15.0",
-  "incore-lab": "v0.5.4",
-  "incore-services": "v1.13.2",
-  "incore-ui": "v1.5.0",
+  "incore-docs": "v4.1.0",
+  "incore-helm": "1.17.0",
+  "incore-lab": "v0.6.1",
+  "incore-services": "v1.13.1",
+  "incore-ui": "v1.6.0",
   "plotting-service": "v1.11.0",
-  "pyincore": "v1.9.0",
+  "pyincore": "v1.10.0",
   "pyincore-viz": "v1.8.1",
   "pyincore-data": "v0.6.0"
 }
