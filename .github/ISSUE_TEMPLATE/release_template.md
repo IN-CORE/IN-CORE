@@ -6,9 +6,10 @@ Please add necessary details, context, including version numbers._
 _Each maintainer, please fill out the necessary in formation and use check box to check the progress._
 
 ### incore-auth
-- Maintainer: Yong Wook Kim
+- Primary Maintainer: Yong Wook Kim
+- Secondary Maintainer:
 - Version number:
-- [ ] <strong>This will not be released in this release</strong>
+- [ ] **This will not be released in this release**
 - [ ] Merge all the necessary branches or PRs to develop branch
 - [ ] Create release branch from develop branch
 - [ ] Deploy release branch to dev cluster and test
@@ -17,9 +18,10 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 - [ ] Merge back main branch to develop branch
 
 ### incore-docs
-- Maintainer: Chris Navarro
+- Primary Maintainer: Chris Navarro
+- Secondary Maintainer:
 - Version number:
-- [ ] <strong>This will not be released in this release</strong>
+- [ ] **This will not be released in this release**
 - [ ] Merge all the necessary branches or PRs to develop branch
 - [ ] Create release branch from develop branch
 - [ ] Deploy release branch to dev cluster and test all the components
@@ -28,9 +30,10 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 - [ ] Merge back main branch to develop branch
 
 ### incore-helm
-- Maintainer: Yong Wook Kim
+- Primary Maintainer: Yong Wook Kim
+- Secondary Maintainer:
 - Version number:
-- [ ] <strong>This will not be released in this release</strong>
+- [ ] **This will not be released in this release**
 - [ ] Merge all the necessary PRs to develop branch or update develop branch
 - [ ] Update all the necessary tags and other information in value file
 - [ ] Deploy components in the dev cluster and test
@@ -39,9 +42,10 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 - [ ] Merge back main branch to develop branch
 
 ### incore-services
-- Maintainer: Chris Navarro
+- Primary Maintainer: Chris Navarro
+- Secondary Maintainer:
 - Version number:
-- [ ] <strong>This will not be released in this release</strong>
+- [ ] **This will not be released in this release**
 - [ ] Merge all the necessary branches or PRs to develop branch
 - [ ] Create release branch from develop branch
 - [ ] Deploy release branch to dev cluster and test all the components
@@ -50,9 +54,10 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 - [ ] Merge back main branch to develop branch
 
 ### maestro-service
-- Maintainer: Chen Wang
+- Primary Maintainer: Chen Wang
+- Secondary Maintainer:
 - Version number:
-- [ ] <strong>This will not be released in this release</strong>
+- [ ] **This will not be released in this release**
 - [ ] Merge all the necessary branches or PRs to develop branch
 - [ ] Create release branch from develop branch
 - [ ] Deploy release branch to dev cluster and test
@@ -61,9 +66,10 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 - [ ] Merge back main branch to develop branch
 
 ### plotting-service
-- Maintainer: Chen Wang
+- Primary Maintainer: Chen Wang
+- Secondary Maintainer:
 - Version number:
-- [ ] <strong>This will not be released in this release</strong>
+- [ ] **This will not be released in this release**
 - [ ] Merge all the necessary branches or PRs to develop branch
 - [ ] Create release branch from develop branch
 - [ ] Deploy release branch to dev cluster and test
@@ -72,9 +78,10 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 - [ ] Merge back main branch to develop branch
 
 ### incore-lab
-- Maintainer: Yong Wook Kim
+- Primary Maintainer: Yong Wook Kim
+- Secondary Maintainer:
 - Version number:
-- [ ] <strong>This will not be released in this release</strong>
+- [ ] **This will not be released in this release**
 - [ ] Merge all the necessary branches or PRs to develop branch
 - [ ] Create release branch from develop branch
 - [ ] Build incore-lab using the rc versions
@@ -85,17 +92,19 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 - [ ] Merge back main branch to develop branch
 
 ### incore-datawolf
-- Maintainer: Yong Wook Kim
+- Primary Maintainer: Yong Wook Kim
+- Secondary Maintainer:
 - Version number:
-- [ ] <strong>This will not be released in this release</strong>
+- [ ] **This will not be released in this release**
 - [ ] Create datawolf with rc versioned pyincore
 - [ ] Deploy rc datawolf to dev cluster and test
 - [ ] Create datawolf with released pyincore
 
 ### incore-data-release
-- Maintainer: Yong Wook Kim
+- Primary Maintainer: Yong Wook Kim
+- Secondary Maintainer:
 - Version number:
-- [ ] <strong>This will not be released in this release</strong>
+- [ ] **This will not be released in this release**
 - [ ] Merge all the necessary branches or PRs to develop branch
 - [ ] Create release branch from develop branch
 - [ ] Deploy release branch to dev cluster and test
@@ -104,9 +113,10 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 - [ ] Merge back main branch to develop branch
 
 ### pyincore
-- Maintainer: Chen Wang
+- Primary Maintainer: Chen Wang
+- Secondary Maintainer:
 - Version number:
-- [ ] <strong>This will not be released in this release</strong>
+- [ ] **This will not be released in this release**
 - [ ] Merge all the necessary branches or PRs to develop branch
 - [ ] Create release branch from develop branch
 - [ ] Release rc versioned pyincore and test
@@ -116,9 +126,10 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 - [ ] Merge back main branch to develop branch
 
 ### pyincore-viz
-- Maintainer: Yong Wook Kim
+- Primary Maintainer: Yong Wook Kim
+- Secondary Maintainer:
 - Version number:
-- [ ] <strong>This will not be released in this release</strong>
+- [ ] **This will not be released in this release**
 - [ ] Merge all the necessary branches or PRs to develop branch
 - [ ] Create release branch from develop branch
 - [ ] Release rc versioned pyincore-viz and test
@@ -128,9 +139,10 @@ _Each maintainer, please fill out the necessary in formation and use check box t
 - [ ] Merge back main branch to develop branch
 
 ### pyincore-data
-- Maintainer: Yong Wook Kim
+- Primary Maintainer: Yong Wook Kim
+- Secondary Maintainer:
 - Version number:
-- [ ] <strong>This will not be released in this release</strong>
+- [ ] **This will not be released in this release**
 - [ ] Merge all the necessary branches or PRs to develop branch
 - [ ] Create release branch from develop branch
 - [ ] Release rc versioned pyincore-data and test
