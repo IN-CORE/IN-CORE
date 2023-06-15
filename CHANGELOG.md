@@ -6,6 +6,52 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 This repository links to each of the other repositories making up the IN-CORE code. You can find more details about the changes for  each of the components of IN-CORE in their respective repositories.
 
+## [4.2.0] - 2023-06-14
+
+IN-CORE v4.2.0 has been released. This release includes the following updates:
+- pyIncore v1.11.0
+- pyIncore-viz v1.8.2
+- IN-CORE Web services v1.11.0
+- IN-CORE documentation v4.2.0
+- IN-CORE Lab v0.7.0
+
+Please visit https://incore.ncsa.illinois.edu for detailed information on changes to each component.
+
+The currently released version of pyIncore has been published at PyPi. Note that it is not officially supported by the IN-CORE dev team and is only tested on the Linux platform. Please use it at your discretion.
+
+Some highlights of this release are as follows:
+- pyIncore v1.11.0
+  - Added Electric Power Facility Repair Cost analysis
+  - Added Water Facility Repair Cost analysis
+  - Added Pipeline Repair Cost analysis
+  - Improved error handling regarding IN-CORE Web Services
+  - Fixed issues related to the upgrade to Pandas 2.0
+- pyIncore-viz v1.8.2
+  - Updated ipyleaflet to version 0.17.2
+- IN-CORE Web services v1.11.0
+  - Added query parameters to sort results in ascending/descending order
+  - Refactored to remove dependency on NCSA LDAP service
+  - User groups are obtained from Keycloak request headers instead of LDAP query
+- IN-CORE documentation v4.2.0
+  - Added Electric Power Facility Repair Cost analysis documentation and example notebook
+  - Added Water Facility Repair Cost analysis documentation and example notebook
+  - Added Pipeline Repair Cost analysis documentation and example notebook
+- IN-CORE Lab v0.7.0
+  - Fixed map visualization issue by updating the jupyterlab 3.6.3
+
+New Datasets:
+- Electric Power Facility Repair Cost analysis
+  - Electric power facility replacement cost - 647dff5b4dd25160127ca192
+  - Electric power facility damage ratios - 6483354b41181d20004efbd7
+- Water Facility Repair Cost analysis
+  - Water facility replacement cost - 64833bcdd3f39a26a0c8b147
+  - Water facility damage ratios - 647e423d7ae18139d9758607
+- Pipeline Repair Cost analysis
+  - Water pipeline replacement cost - 6480a2787ae18139d975e919
+  - Water pipeline damage ratios - 6480a2d44dd25160127d2fcc
+  - Seaside Water pipeline inventory - 6480a1d9c1a69260b196d9c6
+
+
 ## [4.1.0] - 2023-04-24
 
 The currently released version of pyIncore has been published at PyPi. Note that it is not officially supported by the IN-CORE dev team and is only tested on the Linux platform. Please use it at your discretion. 
