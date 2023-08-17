@@ -56,6 +56,6 @@ jobs:
         uses: ncipollo/release-action@v1
         id: release
         with:
-          tag: ${{ steps.release_info.outputs.version }}
+          tag: v${{ steps.release_info.outputs.version }}
           bodyFile: _changelog.md
           token: ${{ secrets.GH_TOKEN }}

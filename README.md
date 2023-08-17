@@ -16,17 +16,17 @@ IN-CORE consists of multiple components as shown below:
 
 ## Current Release
 
-This is the list of releases for IN-CORE v4.2.0
+This is the list of releases for IN-CORE v4.5.0
 
 | module | version |
 | ------ | ------- |
 | incore-auth | 1.7.0 |
-| incore-docs | v4.2.0 |
-| incore-helm | 1.18.0 |
-| incore-lab | v0.7.0 |
-| incore-services | v1.14.0 |
-| incore-ui | v1.6.0 |
+| incore-docs | v4.5.0 |
+| incore-helm | 1.19.0 |
+| incore-lab | v0.8.0 |
+| incore-services | v1.20.0 |
+| incore-ui | v1.7.0 |
 | plotting-service | v1.11.0 |
-| pyincore | v1.11.0 |
+| pyincore | v1.12.0 |
 | pyincore-data | v0.6.0 |
-| pyincore-viz | v1.8.2 |
+| pyincore-viz | v1.8.3 |
