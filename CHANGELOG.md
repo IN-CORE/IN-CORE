@@ -33,7 +33,7 @@ Some highlights of this release are as follows:
   - Added quota management of IN-CORE Lab to user allocation endpoints
   - Added Sadigh et al 1997 attenuation model
 - IN-CORE Web tools v1.8.0
-  - Added dataset type viewer
+  - Added Semantic type viewer
   - Added multi-hazard earthquake+tsunami selection to DFR3Viewer
   - Updated user IN-CORE lab quota to read from the allocations endpoint
 - IN-CORE Documentation v4.6.0
