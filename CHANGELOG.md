@@ -6,6 +6,101 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 This repository links to each of the other repositories making up the IN-CORE code. You can find more details about the changes for  each of the components of IN-CORE in their respective repositories.
 
+## [4.6.0] - 2023-10-11
+
+IN-CORE v4.6.0 has been released. This release includes the following updates:
+- pyIncore v1.13.0
+- IN-CORE Web services v1.21.0
+- IN-CORE Web Tools v1.8.0
+- IN-CORE Documentation v4.6.0
+- IN-CORE lab v1.0.0
+
+Please visit https://incore.ncsa.illinois.edu for detailed information on changes to each component.
+
+The currently released version of pyIncore has been published at PyPi. Note that it is not officially supported by the IN-CORE dev team and is only tested on the Linux platform. Please use it at your discretion.
+
+Some highlights of this release are as follows:
+
+- pyIncore v1.13.0
+  - Added commercial building recovery analysis
+  - Added a capability of local hazard with datasets (e.g. Geotiff)
+  - Added support for multi-hazard fragility curves
+  - Updated damage analyses to support local hazard
+  - Refactored INDP analysis dislocation time to allow different parameters
+- IN-CORE Web Services v.1.21.0
+  - Added a capability to generate template dataset on semantic service
+  - Added owner attribute in the metadata of dataset, hazard and dfr3 curves
+  - Added quota management of IN-CORE Lab to user allocation endpoints
+  - Added Sadigh et al 1997 attenuation model
+- IN-CORE Web tools v1.8.0
+  - Added dataset type viewer
+  - Added multi-hazard earthquake+tsunami selection to DFR3Viewer
+  - Updated user IN-CORE lab quota to read from the allocations endpoint
+- IN-CORE Documentation v4.6.0
+  - Added an example notebook and documentation for commercial building recovery
+  - Added local hazard tutorial
+  - Updated INDP analysis documentation
+- IN-CORE Lab v 1.0.0
+  - Updated jupyter hub to version 3.0.2 and jupyter lab to 4.0.2
+  - User quota read from the user’s service allocation
+
+New Datasets:
+- Delay impending factors for Joplin commercial buildings - 64ee0bcd553ecf0768e21e55
+
+New Fragilities:
+- Seaside Testbed Regular-Duration Earthquakes RC3 3D fragility - 65259acf62ba036575da5fcf
+
+
+## [4.5.0] - 2023-08-16
+
+IN-CORE v4.5.0 has been released. This release includes the following updates:
+- pyIncore v1.12.0
+- pyIncore-viz v1.8.3
+- IN-CORE Web services v1.20.0
+- IN-CORE Web Tools v1.7.0
+- IN-CORE Documentation v4.5.0
+- IN-CORE lab v0.8.0
+
+Please visit https://incore.ncsa.illinois.edu for detailed information on changes to each component.
+
+The currently released version of pyIncore has been published at PyPi. Note that it is not officially supported by the IN-CORE dev team and is only tested on the Linux platform. Please use it at your discretion.
+
+Some highlights of this release are as follows:
+
+- pyIncore v1.12.0
+  - Added Interdependent Network Design Problem (INDP) analysis
+- pyIncore-viz v1.8.3
+  - Fixed building process of conda package and changed testing to use micromamba
+- IN-CORE Web Services v.1.20.0
+  - Geotools upgraded to version 29
+  - Jersey web services framework upgraded to version 3
+  - OpenAPI upgraded to version 3
+  - Upgraded related libraries for the upgrades of Geotools, Jersey, and OpenAPI
+  - Initial implementation of Semantics Service to provide the information of dataset types
+  - Added endpoint to return allowed demand types for each hazard in the Hazard service
+- IN-CORE Web tools v1.7.0
+  - Fixed close operation for all viewers so it correctly closes the view
+  - Fixed user usage information display
+- IN-CORE Documentation v4.5.0
+  - Added an example notebook and documentation for Interdependent Network Design Problem analysis
+  - Fixed tornado visualization example notebook
+  - Upgraded swagger ui library
+- IN-CORE Lab v 0.8.0
+  - Updated the container definition to reduce the container size
+  - Added ipopt and scip solvers for optimization analyses
+
+New Datasets:
+- Building inventory for Mobile testbed - 649361d8e435fd233fbbd1b3
+- Seaside INDP
+  - Powerline supply demand info - 64adbfdeae71103fb41906e6
+  - EPF supply demand info - 64adc019e1b74b4e1582110d
+  - Water facility supply demand info - 64adc051ae71103fb41906e7
+  - Water pipeline supply demand info - 64adc08ee1b74b4e1582110e
+  - Interdependency - 64adc0c4ae71103fb41906e8
+  - Power Network - 64adbc47c36a346b1f3969f0
+  - Water Network - 64adbed3e1b74b4e158210ed
+
+
 ## [4.2.0] - 2023-06-14
 
 IN-CORE v4.2.0 has been released. This release includes the following updates:
