@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 This repository links to each of the other repositories making up the IN-CORE code. You can find more details about the changes for  each of the components of IN-CORE in their respective repositories.
 
+## [4.7.0] - 2023-11-09
+
 ## [4.6.0] - 2023-10-11
 
 IN-CORE v4.6.0 has been released. This release includes the following updates:
