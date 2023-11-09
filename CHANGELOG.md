@@ -6,6 +6,46 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 This repository links to each of the other repositories making up the IN-CORE code. You can find more details about the changes for  each of the components of IN-CORE in their respective repositories.
 
+## [4.7.0] - 2023-11-09
+
+IN-CORE v4.7.0 has been released. This release includes the following updates: 
+- pyIncore v1.14.0
+- pyIncore-viz v1.8.4
+- IN-CORE Web services v1.22.0
+- IN-CORE Web Tools v1.9.0
+- IN-CORE Documentation v4.7.0
+- IN-CORE lab v1.1.0
+
+Please visit https://incore.ncsa.illinois.edu for detailed information on changes to each component.
+
+The currently released version of pyIncore has been published at PyPi. Note that it is not officially supported by the IN-CORE dev team and is only tested on the Linux platform. Please use it at your discretion. 
+
+Some highlights of this release are as follows:
+
+- pyIncore v1.14.0
+  - Updated building damage analysis to support local hazard object
+  - Dropped support for Python 3.8 and set minimum version to Python 3.9 (for pyincore-viz and pyincore-data, too)
+  - Fixed DFR3 mapping to allow for local repair curves
+- pyIncore-viz v1.8.4
+  - Changed basemap API to use Open Street Map
+  - Fixed issue of centering map with ipyleaflet
+- IN-CORE Web Services v.1.22.0
+  - Fixed missing filters by user access on semantics service
+- IN-CORE Web tools v1.9.0
+  - Added links to the Slack workspace and mailing list to the landing page
+  - Renamed Semantics viewer to Dataset Type Viewer
+  - Added missing a filter title for both Data Viewer and Dataset Type Viewer
+  - Added description in Dataset Type viewer
+- IN-CORE Documentation v4.7.0
+  - Added Slack workspace information to pages of contact information and getting started pages
+  - Updated documentation of building damage analysis 
+  - Fixed missing links of analysis at table of contents in the sidebar menu
+  - Updated python minimum version references to Python 3.9
+- IN-CORE Lab v1.1.0
+  - INCORE-Lab now uses pyIncore version 1.14.0
+  - INCORE-Lab now uses pyIncore-viz version 1.8.4
+
+
 ## [4.6.0] - 2023-10-11
 
 IN-CORE v4.6.0 has been released. This release includes the following updates:
