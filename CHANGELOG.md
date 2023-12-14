@@ -6,6 +6,47 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 This repository links to each of the other repositories making up the IN-CORE code. You can find more details about the changes for  each of the components of IN-CORE in their respective repositories.
 
+## [4.8.0] - 2023-12-13
+
+IN-CORE v4.8.0 has been released. This release includes the following updates:
+- pyIncore v1.15.0
+- pyIncore-viz v1.9.0
+- pyIncore-data v0.6.1
+- IN-CORE Web services v1.23.0
+- IN-CORE Web Tools v1.9.1
+- IN-CORE Documentation v4.8.0
+- IN-CORE lab v1.2.0
+
+Please visit https://incore.ncsa.illinois.edu for detailed information on changes to each component.
+
+The currently released version of pyIncore has been published at PyPi. Note that it is not officially supported by the IN-CORE dev team and is only tested on the Linux platform. Please use it at your discretion.
+
+Some highlights of this release are as follows:
+
+- pyIncore v1.15.0
+  - Removed redundant output data (e.g. damage) from output of MCS analysis
+  - Updated commercial building recovery to include building damage as an input since it was no longer part of the
+    MCS output
+  - Fully enabled offline mode for pyincore
+- pyIncore-viz v1.9.0
+  - Added local hazard visualization
+- pyIncore-data v0.6.1
+  - Cleaned up dependencies to simplify installation and updated python to 3.9
+- IN-CORE Web Services v.1.23.0
+  - Refactored allocation and usage endpoints to use Java models
+- IN-CORE Web tools v1.9.1
+  - Updated library dependencies to fix GitHub dependabot security warnings
+- IN-CORE Documentation v4.8.0
+  - Added ASCE INSPIRE 2023 workshop materials
+  - Added semantic data type URL links to analysis page documentation
+  - API documentation page redirects to login page if the user is not logged in
+  - Updated Seaside testbed notebook to use damage output from damage analysis instead of the MCS output
+- IN-CORE Lab v1.2.0
+  - Updated build file to use Mamba to install python dependencies
+  - Added configuration file for controlling component versions of pyincore, pyincore-viz, and pyincore-data and
+    updated it to use the latest releases
+
+
 ## [4.7.0] - 2023-11-09
 
 IN-CORE v4.7.0 has been released. This release includes the following updates: 
