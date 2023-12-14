@@ -11,7 +11,7 @@ This repository links to each of the other repositories making up the IN-CORE co
 IN-CORE v4.8.0 has been released. This release includes the following updates:
 - pyIncore v1.15.0
 - pyIncore-viz v1.9.0
-- Pyincore-data v0.6.1
+- pyincore-data v0.6.1
 - IN-CORE Web services v1.23.0
 - IN-CORE Web Tools v1.9.1
 - IN-CORE Documentation v4.8.0
