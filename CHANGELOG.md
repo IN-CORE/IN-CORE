@@ -6,6 +6,28 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 This repository links to each of the other repositories making up the IN-CORE code. You can find more details about the changes for  each of the components of IN-CORE in their respective repositories.
 
+## [4.8.1] - 2023-12-20
+
+IN-CORE v4.8.1 has been released. This release includes the following updates:
+- pyIncore v1.15.1
+- IN-CORE Documentation v4.8.1
+- IN-CORE lab v1.2.1
+
+Please visit https://incore.ncsa.illinois.edu for detailed information on changes to each component.
+
+The currently released version of pyIncore has been published at PyPi. Note that it is not officially supported by the IN-CORE dev team and is only tested on the Linux platform. Please use it at your discretion.
+
+Some highlights of this release are as follows:
+
+- pyIncore v1.15.1
+  - Updated NCI functionality analysis to include electric power damage as an input since it was no longer part of
+  the MCS output
+- IN-CORE Documentation v4.8.1
+  - Updated NCI functionality analysis documentation with electric power damage input and updated the example notebook
+- IN-CORE Lab v1.2.1
+  - Updated to use pyincore v1.15.1
+
+
 ## [4.8.0] - 2023-12-13
 
 IN-CORE v4.8.0 has been released. This release includes the following updates:
