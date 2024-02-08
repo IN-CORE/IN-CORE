@@ -6,6 +6,51 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 This repository links to each of the other repositories making up the IN-CORE code. You can find more details about the changes for  each of the components of IN-CORE in their respective repositories.
 
+## [5.0.0] - 2024-02-07
+
+IN-CORE v5.0.0 has been released. This release includes the following updates:
+- pyIncore v1.16.0
+- pyIncore-viz v1.10.0
+- pyIncore-data v0.6.2
+- IN-CORE Web services v1.24.0
+- IN-CORE Web Tools v1.10.0
+- IN-CORE Documentation v4.8.2
+- IN-CORE lab v1.3.0
+
+Please visit https://incore.ncsa.illinois.edu for detailed information on changes to each component.
+
+The currently released version of pyIncore has been published at PyPi. Note that it is not officially supported by the IN-CORE dev team and is only tested on the Linux platform. Please use it at your discretion.
+
+Some highlights of this release are as follows:
+
+- pyIncore v1.16.0
+  - Added a method to create GUID for GeoPackage file
+  - Updated model classes of tornado and earthquake according to the improvement of Hazard service
+  - Added python decorator to indicate if a method requires a service connection
+- pyIncore-viz v1.10.0
+  - Added a method for plotting local hazards
+  - Updated methods of visualizing tornado and earthquake according to pyIncore change
+  - Fixed build script issue for sphinx documentation
+- pyIncore-data v0.6.2
+  - Fixed build script issue for sphinx documentation
+- IN-CORE Web Services v.1.24.0
+  - Updated model classes of tornado and earthquake to be consistent with other hazard models
+  - Added support for GeoPackage file
+  - Changed semantic types to use Java models
+  - Added sorting capability for semantic definitions
+- IN-CORE Web tools v1.10.0
+  - Improved the landing page
+  - Updated hazard viewer based on Hazard service changes
+- IN-CORE Documentation v4.8.2
+  - Fixed a link issue with the ASCE INSPIRE 2023 workshop material
+  - Fixed Pandas warnings in testbed notebooks
+- IN-CORE Lab v1.3.0
+  - Updated to use pyincore 1.16.0, pyincore-viz 1.10.0 and pyincore-data 0.6.2
+
+New Datasets:
+- MMSA Shelby county Building to Sectors mapping - 656727dfdc70057a752b6b35
+
+
 ## [4.8.1] - 2023-12-20
 
 IN-CORE v4.8.1 has been released. This release includes the following updates:
