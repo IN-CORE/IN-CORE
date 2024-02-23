@@ -6,6 +6,35 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 This repository links to each of the other repositories making up the IN-CORE code. You can find more details about the changes for  each of the components of IN-CORE in their respective repositories.
 
+## [5.1.0] - 2024-02-22
+
+IN-CORE v5.1.0 has been released. This release includes the following updates:
+- pyIncore v1.17.0
+- IN-CORE Web services v1.25.0
+- IN-CORE Documentation v4.9.0
+- IN-CORE lab v1.4.0
+
+Please visit https://incore.ncsa.illinois.edu for detailed information on changes to each component.
+
+The currently released version of pyIncore has been published at PyPi. Note that it is not officially supported by the IN-CORE dev team and is only tested on the Linux platform. Please use it at your discretion.
+
+Some highlights of this release are as follows:
+
+- pyIncore v1.17.0
+  - Added a method to convert IN-CORE damage states to FEMA damage states for Galveston community
+  - Fixed tornado EPN damage according to update on tornado hazard
+  - Changed how retrofit mappings are used in building damage analysis according to mapping set update
+- IN-CORE Web Services v.1.25.0
+  - [Data service] Improved performance of joining a CSV and a Shapefile
+  - [DFR3 service] Added retrofit information to mapping set
+  - [Semantics service] Fixed broken semantics data type links
+- IN-CORE Documentation v4.9.0
+  - Updated 2023 ASCE Inspire workshop material; notebooks with creating local hazard and with pyincore-viz example
+  according to update on tornado hazard
+- IN-CORE Lab v1.4.0
+  - Updated to use pyincore 1.17.0
+
+
 ## [5.0.0] - 2024-02-07
 
 IN-CORE v5.0.0 has been released. This release includes the following updates:
