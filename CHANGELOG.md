@@ -6,21 +6,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 This repository links to each of the other repositories making up the IN-CORE code. You can find more details about the changes for  each of the components of IN-CORE in their respective repositories.
 
-## [5.2.0] - 2024-03-28
-
-IN-CORE v5.2.0 has been released. This release includes the following updates:
-- IN-CORE Web services v1.26.0
-
-Please visit https://incore.ncsa.illinois.edu for detailed information on changes to each component.
-
-The currently released version of pyIncore has been published at PyPi. Note that it is not officially supported by the IN-CORE dev team and is only tested on the Linux platform. Please use it at your discretion.
-
-Some highlights of this release are as follows:
-
-- IN-CORE Web Services v.1.26.0
-  - [Data service] Fixed missing values in joined shapefile to geoserver
-
-
 ## [5.1.0] - 2024-02-22
 
 IN-CORE v5.1.0 has been released. This release includes the following updates:
