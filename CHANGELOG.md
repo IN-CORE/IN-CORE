@@ -12,7 +12,7 @@ IN-CORE v5.3.0 has been released. This release includes the following updates:
 - pyIncore v1.18.0
 - IN-CORE Web services v1.26.1
 - IN-CORE Documentation v4.10.0
-- IN-CORE lab v1.5.0s
+- IN-CORE lab v1.5.0
 
 Please visit https://incore.ncsa.illinois.edu for detailed information on changes to each component.
 
