@@ -6,11 +6,39 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 This repository links to each of the other repositories making up the IN-CORE code. You can find more details about the changes for  each of the components of IN-CORE in their respective repositories.
 
+## [5.3.0] - 2024-04-12
+
+IN-CORE v5.3.0 has been released. This release includes the following updates:
+- pyIncore v1.18.0
+- IN-CORE Web services v1.26.1
+- IN-CORE Documentation v4.10.0
+- IN-CORE lab v1.5.0
+
+Please visit https://incore.ncsa.illinois.edu for detailed information on changes to each component.
+
+The currently released version of pyIncore has been published at PyPi. Note that it is not officially supported by the IN-CORE dev team and is only tested on the Linux platform. Please use it at your discretion.
+
+Some highlights of this release are as follows:
+
+- pyIncore v1.18.0
+  - Added the core engine for Machine Learning (ML) enabled CGE
+  - Added an analysis of ML enabled CGE for Salt Lake City
+  - Added more math library support for DFR3 expressions
+  - Fixed the timeout issue of IN-CORE client 
+- IN-CORE Web Services v.1.26.1
+  - [Data service] Fixed quota issue for hazard data types
+- IN-CORE Documentation v4.10.0
+  - Added Salt Lake City community app notebook with retrofit example
+  - Added citation for social vulnerability analysis
+  - Added documentation and example notebook for ML enabled CGE for Salt Lake City
+- IN-CORE lab v1.5.0
+  - Updated to use pyincore 1.18.0
+
 ## [5.2.0] - 2024-03-29
 
 IN-CORE v5.2.0 has been released. This release includes the following updates:
 - IN-CORE Web services v1.26.0
-- 
+
 Please visit https://incore.ncsa.illinois.edu for detailed information on changes to each component.
 
 The currently released version of pyIncore has been published at PyPi. Note that it is not officially supported by the IN-CORE dev team and is only tested on the Linux platform. Please use it at your discretion.
