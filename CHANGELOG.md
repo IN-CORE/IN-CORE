@@ -16,7 +16,6 @@ IN-CORE v5.3.1 has been released. This release includes the following updates:
 
 Please visit https://incore.ncsa.illinois.edu for detailed information on changes to each component.
 
-
 The currently released version of pyIncore has been published at PyPi. Note that it is not officially supported by the IN-CORE dev team and is only tested on the Linux platform. Please use it at your discretion.
 
 Some highlights of this release are as follows:
