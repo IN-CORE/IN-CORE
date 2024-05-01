@@ -24,7 +24,7 @@ Some highlights of this release are as follows:
   - Added support for choice dislocation and unsafe occupancy in the population dislocation analysis
   - Renamed Joplin Empirical Restoration analysis to Joplin Empirical Building Restoration
   - Fixed pip installation by cleaning up dependencies
-  - Fixed permission error by cleaning up datasets on windows platform
+  - Fixed permission error when cleaning up datasets on windows platform
 - IN-CORE Documentation v4.11.0
   - Upgraded Jupyter Book to 0.15.1
   - Updated IN-CORE logo
@@ -32,6 +32,17 @@ Some highlights of this release are as follows:
   - Updated to use pyIncore 1.18.1
 - IN-CORE Web Tools  v1.11.0
   - Updated IN-CORE logo and matching color palette
+
+New hazards
+
+- Hurricane Katrina - surge
+  - Water level for natural hurricane Katrina in 200: 6420c6e6d9ae37665ff0d5f2
+  - Water level for natural hurricane Katrina coupled with NOAA intermediate SLR: 64222491d9ae37665ff0d5f3
+  - Water level for natural hurricane Katrina coupled with NOAA extreme SLR: 6422253cd9ae37665ff0d5f4
+  - Water level for shifted hurricane Katrina: 642d387bfde0f316c3493530
+  - Water level for shifted hurricane Katrina coupled with NOAA intermediate SLR: 642d38f1fde0f316c3493531
+  - Water level for shifted hurricane Katrina coupled with NOAA extreme SLR: 642d3c7763601e1e19241468
+
 
 ## [5.3.0] - 2024-04-12
 
