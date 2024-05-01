@@ -6,6 +6,44 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 This repository links to each of the other repositories making up the IN-CORE code. You can find more details about the changes for  each of the components of IN-CORE in their respective repositories.
 
+## [5.3.1] - 2024-04-30
+
+IN-CORE v5.3.1 has been released. This release includes the following updates:
+- pyIncore v1.18.1
+- IN-CORE Documentation v4.11.0
+- IN-CORE lab v1.6.0
+- IN-CORE Web Tools v1.11.0
+
+Please visit https://incore.ncsa.illinois.edu for detailed information on changes to each component.
+
+The currently released version of pyIncore has been published at PyPi. Note that it is not officially supported by the IN-CORE dev team and is only tested on the Linux platform. Please use it at your discretion.
+
+Some highlights of this release are as follows:
+
+- pyIncore v1.18.1
+  - Added support for choice dislocation and unsafe occupancy in the population dislocation analysis
+  - Renamed Joplin Empirical Restoration analysis to Joplin Empirical Building Restoration
+  - Fixed pip installation by cleaning up dependencies
+  - Fixed permission error when cleaning up datasets on windows platform
+- IN-CORE Documentation v4.11.0
+  - Upgraded Jupyter Book to 0.15.1
+  - Updated IN-CORE logo
+- IN-CORE lab v1.6.0
+  - Updated to use pyIncore 1.18.1
+- IN-CORE Web Tools  v1.11.0
+  - Updated IN-CORE logo and matching color palette
+
+New hazards
+
+- Hurricane Katrina - surge
+  - Water level for natural hurricane Katrina in 200: 6420c6e6d9ae37665ff0d5f2
+  - Water level for natural hurricane Katrina coupled with NOAA intermediate SLR: 64222491d9ae37665ff0d5f3
+  - Water level for natural hurricane Katrina coupled with NOAA extreme SLR: 6422253cd9ae37665ff0d5f4
+  - Water level for shifted hurricane Katrina: 642d387bfde0f316c3493530
+  - Water level for shifted hurricane Katrina coupled with NOAA intermediate SLR: 642d38f1fde0f316c3493531
+  - Water level for shifted hurricane Katrina coupled with NOAA extreme SLR: 642d3c7763601e1e19241468
+
+
 ## [5.3.0] - 2024-04-12
 
 IN-CORE v5.3.0 has been released. This release includes the following updates:
