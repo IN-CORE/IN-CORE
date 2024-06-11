@@ -6,6 +6,49 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 This repository links to each of the other repositories making up the IN-CORE code. You can find more details about the changes for  each of the components of IN-CORE in their respective repositories.
 
+## [5.4.0] - 2024-06-12
+
+IN-CORE v5.4.0 has been released. This release includes the following updates:
+- pyIncore v1.19.0
+- pyIncore-viz 1.10.1
+- pyIncore-data 0.6.3
+- IN-CORE Documentation v4.12.0
+- IN-CORE lab v1.7.0
+- IN-CORE Web Tools v1.12.0
+
+Please visit https://incore.ncsa.illinois.edu for detailed information on changes to each component.
+
+The currently released version of pyIncore has been published at PyPi. Note that it is not officially supported by the IN-CORE dev team and is only tested on the Linux platform. Please use it at your discretion.
+
+Some highlights of this release are as follows:
+
+- In this release, we added google analytics to all static pages including user manual, API documentation, and
+auto-generated technical documentation in pyIncore, pyIncore-viz, and pyIncore-data.
+- pyIncore v1.19.0
+  - Added buyout decision analysis
+  - Added gas facility damage analysis
+  - Renamed building damage to building structural damage
+  - Renamed nonstructural damage to building nonstructural damage
+  - Renamed social vulnerability to social vulnerability score
+  - Renamed transportation recovery to traffic flow recovery
+  - Renamed monte carlo failure probability to monte carlo limit state probability
+  - Renamed housing recovery to housing valuation recovery
+  - Renamed building portfolio to building cluster recovery
+  - Added flood hazard support to building non structural damage
+  - Updated flood input type to be non structural damage for combined wind, wave, surge building damage analysis
+- IN-CORE Documentation v4.12.0
+  - Updated documentation for renamed analyses including building structural damage, building non structural damage,
+  - social vulnerability score, traffic flow recovery, monte carlo limit state probability, housing valuation
+    recovery, and building cluster recovery.
+  - Added buyout analysis documentation and example notebook
+  - Added gas facility analysis documentation and example notebook
+- IN-CORE lab v1.7.0
+  - Updated to use pyIncore v1.19.0, pyIncore-viz v1.10.1, and pyIncore-data v0.6.3
+- IN-CORE Web Tools  v1.12.0
+  - Replaced login page with keycloak native login page
+  - Added google analytics
+
+
 ## [5.3.1] - 2024-04-30
 
 IN-CORE v5.3.1 has been released. This release includes the following updates:
