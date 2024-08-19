@@ -6,6 +6,36 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 This repository links to each of the other repositories making up the IN-CORE code. You can find more details about the changes for  each of the components of IN-CORE in their respective repositories.
 
+## [5.4.1] - 2024-08-21
+
+In this release, the NCSA LDAP user management system has been shifted to the new IN-CORE user management system.
+Accounts have been migrated to the new system and users will need to reset their passwords to re-enable their account.
+
+This release includes the changes and improvements regarding the new IN-CORE user management system.
+
+IN-CORE v5.4.1 has been released. This release includes the following updates:
+- IN-CORE Documentation v4.13.0
+- IN-CORE lab v1.8.0
+- IN-CORE Web Tools v1.13.0
+
+Please visit https://incore.ncsa.illinois.edu for detailed information on changes to each component.
+
+The currently released version of pyIncore has been published at PyPi. Note that it is not officially supported by the IN-CORE dev team and is only tested on the Linux platform. Please use it at your discretion.
+
+Note: this release shifts IN-CORE to a new user management system as announced previously.
+
+Some highlights of this release are as follows:
+
+- IN-CORE Documentation v4.13.0
+  - Updated Account registration instructions
+- IN-CORE Lab v1.8.0
+  - Updated base image for Jupyter Lab to 4.1
+  - Removed LDAP UID dependency
+- IN-CORE Web Tools v1.13.0
+  - Replaced LDAP registration links with new registration page
+  - Added landing page announcement informing user management change
+
+
 ## [5.4.0] - 2024-06-12
 
 IN-CORE v5.4.0 has been released. This release includes the following updates:
