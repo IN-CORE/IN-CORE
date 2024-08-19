@@ -8,6 +8,11 @@ This repository links to each of the other repositories making up the IN-CORE co
 
 ## [5.4.1] - 2024-08-21
 
+In this release, the NCSA LDAP user management system has been shifted to the new IN-CORE user management system.
+Accounts have been migrated to the new system and users will need to reset their passwords to re-enable their account.
+
+This release includes the changes and improvements regarding the new IN-CORE user management system.
+
 IN-CORE v5.4.1 has been released. This release includes the following updates:
 - IN-CORE Documentation v4.13.0
 - IN-CORE lab v1.8.0
@@ -21,15 +26,14 @@ Note: this release shifts IN-CORE to a new user management system as announced p
 
 Some highlights of this release are as follows:
 
-- In this release, the NCSA LDAP user management system has been shifted to one that utilizes Keycloak technology. Accounts have been migrated to the new system and users will need to reset their passwords to re-enable their account.
 - IN-CORE Documentation v4.13.0
   - Updated Account registration instructions
-- IN-CORE lab v1.8.0
-  - Updated base image for Jupyter lab to 4.1
+- IN-CORE Lab v1.8.0
+  - Updated base image for Jupyter Lab to 4.1
   - Removed LDAP UID dependency
 - IN-CORE Web Tools v1.13.0
-  - Replaced LDAP registration links with Keycloak registration
-  - Added announcement informing user management change
+  - Replaced LDAP registration links with new registration page
+  - Added landing page announcement informing user management change
 
 
 ## [5.4.0] - 2024-06-12
