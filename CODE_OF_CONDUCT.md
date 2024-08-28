@@ -29,7 +29,7 @@ This code is not exhaustive or complete. It serves to distill our common underst
 
 ## Enforcement
 
-If you experience or witness unacceptable behavior—or have any other concerns—please report it by contacting us via **incoreconduct@lists.illinois.edu**. All reports will be handled with discretion. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
+If you experience or witness unacceptable behavior—or have any other concerns—please report it by contacting us via [incore-dev@lists.illinois.edu][1]. All reports will be handled with discretion. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
 
 Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
 
@@ -39,3 +39,4 @@ Anyone asked to stop unacceptable behavior is expected to comply immediately. If
 
 This code of conduct is based on the Clowder Code of Conduct and Project Jupyter Code of Conduct. The Clowder Code of Conduct is derived from a template established by the TODO Group, the Microsoft Open Source Code of Conduct, and the Twitter Open Source Code of Conduct.
  
+[1]: mailto:incore-dev@lists.illinois.edu
