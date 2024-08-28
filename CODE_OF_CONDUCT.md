@@ -1,3 +1,5 @@
+# IN-CORE Code of Conduct
+
 **January 2024**
 
 This code of conduct outlines our expectations for participants within the IN-CORE community, as well as steps to reporting unacceptable behavior. We are committed to providing a welcoming and inspiring community for all. Anyone who violates this code of conduct may be banned from the community.
@@ -25,7 +27,7 @@ Don’t forget that it is human to err and blaming each other doesn’t get us a
 
 This code is not exhaustive or complete. It serves to distill our common understanding of a collaborative, shared environment, and goals. We expect it to be followed in spirit as much as in the letter.
 
-**Enforcement**
+## Enforcement
 
 If you experience or witness unacceptable behavior—or have any other concerns—please report it by contacting us via **incoreconduct@lists.illinois.edu**. All reports will be handled with discretion. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
 
@@ -33,7 +35,7 @@ Project maintainers who do not follow or enforce the Code of Conduct in good fai
 
 Anyone asked to stop unacceptable behavior is expected to comply immediately. If an individual engages in unacceptable behavior, the representative may take any action they deem appropriate, up to and including a permanent ban from our community without warning.
 
-**Attribution & Acknowledgements**
+## Attribution & Acknowledgements
 
 This code of conduct is based on the Clowder Code of Conduct and Project Jupyter Code of Conduct. The Clowder Code of Conduct is derived from a template established by the TODO Group, the Microsoft Open Source Code of Conduct, and the Twitter Open Source Code of Conduct.
  
