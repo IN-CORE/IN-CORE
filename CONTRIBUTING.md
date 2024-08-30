@@ -4,8 +4,8 @@ By participating in this project, you agree to abide by our [Code of Conduct](CO
 
 Please discuss your ideas and contributions with the community on the Slack (https://in-core.slack.com, #developer channel) or at the Github Discussions. 
 
-
-## Workflow
+## Code Contribution
+### Workflow
 
 - Make sure you have a GitHub account https://github.com/
 - If the issue doesn’t already exist, submit an issue in GitHub
@@ -32,25 +32,25 @@ Please discuss your ideas and contributions with the community on the Slack (htt
 - When ready to merge, the branch will be merged into **develop**.
   - We might use squash to minimize the number of commits
 
-## Code Reviews
+### Code Reviews
 
 Code reviews for pull requests will happen in GitHub. If your PR is not ready for review, please create a draft pull request until it is ready for review. When a pull request is ready to be merged, it will be merged into develop on GitHub. 
 
-## Issues
+### Issues
 
 We use some of the common issue labels available in GitHub. For the most part they are self explanatory: **bug**, **enhancement**, **new feature**. 
 
 Make sure to get feedback from the community on your proposed solution before starting implementation, either on Slack (#developer channel), or Github discussions. Given the distributed nature of the team and the different requirements from the different projects using and contributing to IN-CORE, it's important that contributions to the core are compatible with all projects and the overall design.
 
-## Testing
+### Testing
 
 Tests should be included with new contributions to verify they run and to assist in the review process. In addition, we welcome contributions of tests to existing features as well.
 
-## Continuous Integration
+### Continuous Integration
 
 All pull requests will be built automatically by the GitHub actions.
 
-## Documentation
+### Documentation
 
 User and developer documentation is available in the source (https://github.com/IN-CORE/incore-docs) and [online](https://incore.ncsa.illinois.edu/doc/incore/index.html)
 
@@ -58,7 +58,7 @@ User and developer documentation is available in the source (https://github.com/
 
 This section describes the process for contributing data to the public “incore” space. 
 
-## Upload Data
+### Upload Data
 - Make sure you have an IN-CORE account. You can sign-up [here](https://incore.ncsa.illinois.edu/auth/realms/In-core/protocol/openid-connect/registrations?client_id=react-auth&response_type=code&scope=openid&redirect_uri=https://incore.ncsa.illinois.edu/)
 - Upload the data to IN-CORE Data service
 - Create PR at [incore-data](https://github.com/IN-CORE/incore-data-release) repo. 
