@@ -1,3 +1,11 @@
+---
+name: Release Template
+about: Use this template to document and track the release process across multiple components.
+title: "[RELEASE] "
+labels: release
+assignees: ''
+---
+
 ## Description
 _Please provide a summary of the release and the issue it fixes. 
 Please add necessary details, context, including version numbers._
