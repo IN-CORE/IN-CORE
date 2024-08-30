@@ -1,7 +1,5 @@
 # IN-CORE Code of Conduct
 
-**January 2024**
-
 This code of conduct outlines our expectations for participants within the IN-CORE community, as well as steps to reporting unacceptable behavior. We are committed to providing a welcoming and inspiring community for all. Anyone who violates this code of conduct may be banned from the community.
 
 **Our open source community strives to:**
