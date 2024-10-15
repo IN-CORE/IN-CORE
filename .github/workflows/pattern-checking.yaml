@@ -1,0 +1,56 @@
+name: Scan for Hardcoded URLs with Submodules
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "Select branch to scan"
+        required: true
+        default: 'main'
+        type: choice
+        options:
+          - main
+          - develop
+          - master
+      pattern:
+        description: "The regex pattern to match"
+        required: false
+        default: '(incore\.ncsa\.illinois\.edu|incore-dev\.ncsa\.illinois\.edu|incore-tst\.ncsa\.illinois\.edu)'
+
+jobs:
+  url_scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout the Selected Branch with Submodules
+        uses: actions/checkout@v3
+        with:
+          submodules: 'recursive'  # Fetch submodules recursively
+          fetch-depth: 1  # Only fetch the latest commit, making the operation faster
+          token: ${{ secrets.GH_TOKEN }}
+          ref: ${{ github.event.inputs.branch }}  # Use the selected branch
+
+      - name: Set Pattern
+        run: |
+          # If no input is provided, use the default pattern
+          if [ -z "${{ github.event.inputs.pattern }}" ]; then
+            echo "Using default URL pattern: (incore\\.ncsa\\.illinois\\.edu|incore-dev\\.ncsa\\.illinois\\.edu|incore-tst\\.ncsa\\.illinois\\.edu)"
+            echo "PATTERN='(incore\\.ncsa\\.illinois\\.edu|incore-dev\\.ncsa\\.illinois\\.edu|incore-tst\\.ncsa\\.illinois\\.edu)'" >> $GITHUB_ENV
+          else
+            echo "Using provided URL pattern: ${{ github.event.inputs.pattern }}"
+            echo "PATTERN='${{ github.event.inputs.pattern }}'" >> $GITHUB_ENV
+          fi
+
+      - name: Scan for Hardcoded URLs
+        run: |
+          # Scan the repository and its submodules for any of the hardcoded URLs
+          echo "Scanning repository and submodules for hardcoded URLs..."
+          if grep -r -n -H -E "${{ env.PATTERN }}" .; then
+            echo "Hardcoded URLs found in ${{ github.repository }} on branch $(git branch --show-current):"
+            grep -r -n -H -E "${{ env.PATTERN }}" .
+            exit 1
+          else
+            echo "No hardcoded URLs found in ${{ github.repository }} on branch $(git branch --show-current)."
+          fi
