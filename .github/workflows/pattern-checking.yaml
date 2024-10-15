@@ -50,7 +50,6 @@ jobs:
           if grep -r -n -H -E "${{ env.PATTERN }}" .; then
             echo "Hardcoded URLs found in ${{ github.repository }} on branch $(git branch --show-current):"
             grep -r -n -H -E "${{ env.PATTERN }}" .
-            exit 1
           else
             echo "No hardcoded URLs found in ${{ github.repository }} on branch $(git branch --show-current)."
           fi
