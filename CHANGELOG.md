@@ -11,8 +11,8 @@ This repository links to each of the other repositories making up the IN-CORE co
 IN-CORE v5.5.0 has been released. This release includes the following updates:
 
 - pyIncore v1.20.0
-- pyIncore-viz 1.11.0
-- pyIncore-data 0.7.0
+- pyIncore-viz v1.11.0
+- pyIncore-data v0.7.0
 - IN-CORE Web services v1.27.0
 - IN-CORE Documentation v4.14.0
 - IN-CORE Web Tools v1.13.1
@@ -31,16 +31,15 @@ Some highlights of this release are as follows:
   - Fixed sphinx autodoc skipping class methods with custom decorators
   - Added automatic formatting and linting
   - Fixed bug with publishing to pypi
-- pyIncore-viz 1.11.0
+- pyIncore-viz v1.11.0
   - Fixed Matplotlib version incompatibility
   - Added automatic formatting and linting
   - Fixed GitHub action for publishing to pip package to pypi
-- pyIncore-data 0.7.0
+- pyIncore-data v0.7.0
   - Added automatic formatting and linting
   - Fixed GitHub action for publishing to pip package to pypi
 - IN-CORE Web services v1.27.0
-  - Added Project Service to curate and manage resources associated with a project
-  - Upgraded dependent libraries including Geotools to version 31.3, Jersey to version 3.1.7 and th jackson library to 2.17.0
+  - Upgraded dependent Java libraries
 - IN-CORE Documentation v4.14.0
   - Added Equity Metric documentations
   - Updated residential building recovery documentation based on the changes to support interdependent recovery analysis
