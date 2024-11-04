@@ -6,6 +6,27 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 This repository links to each of the other repositories making up the IN-CORE code. You can find more details about the changes for  each of the components of IN-CORE in their respective repositories.
 
+## [5.5.1] - 2024-11-04
+
+IN-CORE v5.5.1 has been released. This release includes the following updates:
+
+- pyIncore v1.20.1
+- IN-CORE Web services v1.27.1
+- IN-CORE lab v1.9.1
+
+Please visit https://incore.ncsa.illinois.edu for detailed information on changes to each component.
+
+The currently released version of pyIncore has been published at PyPi. Note that it is not officially supported by the IN-CORE dev team and is only tested on the Linux platform. Please use it at your discretion. 
+
+Some highlights of this release are as follows:
+
+- pyIncore v1.20.1
+  - Fixed core CGE ML bug and updated base values for Joplin
+- IN-CORE Web services v1.27.1
+  - Fixed issue with calculating geospatial bounding box of earthquake visualization raster
+- IN-CORE Lab v1.9.1
+  - Updated to use pyIncore v1.20.1, pyIncore-viz v1.11.0, and pyIncore-data v0.7.0
+
 ## [5.5.0] - 2024-10-23
 
 IN-CORE v5.5.0 has been released. This release includes the following updates:
