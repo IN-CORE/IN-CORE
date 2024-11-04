@@ -23,7 +23,7 @@ Some highlights of this release are as follows:
 - pyIncore v1.20.1
   - Fixed core CGE ML bug and updated base values for Joplin
 - IN-CORE Web services v1.27.1
-  - Fixed issue with earthquake visualization raster envelope
+  - Fixed issue with calculating geospatial bounding box of earthquake visualization raster
 - IN-CORE Lab v1.9.1
   - Updated to use pyIncore v1.20.1, pyIncore-viz v1.11.0, and pyIncore-data v0.7.0
 
