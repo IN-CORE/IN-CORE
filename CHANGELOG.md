@@ -6,6 +6,54 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 This repository links to each of the other repositories making up the IN-CORE code. You can find more details about the changes for  each of the components of IN-CORE in their respective repositories.
 
+## [6.0.0] - 2025-02-19
+
+IN-CORE v6.0.0 has been released. This release includes the following updates:
+
+- pyIncore v1.21.0
+- pyIncore-viz v1.11.1
+- pyIncore-data v0.8.0
+- IN-CORE Web services v1.28.0
+- IN-CORE Web Tools v1.14.0
+- IN-CORE Documentation v4.15.0
+- IN-CORE lab v1.10.0
+
+Please visit https://tools.in-core.org for detailed information on changes to each component.
+
+Please note that the landing page address of IN-CORE has been changed to https://tools.in-core.org. The old address, https://incore.ncsa.illinois.edu, will work for a while, but we highly recommend using the new address for your code.
+
+The currently released version of pyIncore has been published at PyPi. Note that it is not officially supported by the IN-CORE dev team and is only tested on the Linux platform. Please use it at your discretion.
+
+Some highlights of this release are as follows:
+
+- pyIncore v1.21.0
+  - Update URL references to tools.in-core.org
+  - Updated rasterio library to v1.4.2
+  - Enabled internal network names for each service for internal communication among the services
+- pyIncore-viz v1.11.1
+  - Update URL references to tools.in-core.org
+- pyIncore-data v0.8.0
+  - Update URL references to tools.in-core.org
+  - Added utility scripts for processing NSI data acquisition
+  - Added utilities for getting FIPS information
+- IN-CORE Web services v1.28.0
+  - Update URL references to tools.in-core.org
+  - Upgraded GeoTools to version 32.1
+  - Added support for peak ground deformation from earthquake hazard models
+- IN-CORE Web Tools v1.14.0
+  - Upgraded library dependencies
+  - Removed landing page message about user management change
+- IN-CORE Documentation v4.15.0
+  - Update URL references to tools.in-core.org
+  - Added testbed notebooks for Mobile, AL, and the port
+- IN-CORE Lab v1.10.0
+  - Updated to use pyIncore v1.21.0, pyIncore-viz v1.11.1, and pyIncore-data v0.8.0
+
+New fragility mapping:
+- HAZUS 2.1 Earthquake Building Fragility Mapping (NSI Data) -  678a837471e12d6e99461b68
+- HAZUS 2.1 Tsunami Building Fragility Mapping (NSI Data) -  678a80b4bd1644522caf86cb
+
+
 ## [5.5.1] - 2024-11-04
 
 IN-CORE v5.5.1 has been released. This release includes the following updates:
