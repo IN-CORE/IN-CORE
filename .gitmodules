@@ -28,3 +28,9 @@
 [submodule "plotting-service"]
 	path = plotting-service
 	url = https://github.com/IN-CORE/plotting-service
+[submodule "incore-studio"]
+	path = incore-studio
+	url = https://github.com/IN-CORE/incore-studio.git
+[submodule "pyincore-incubator"]
+	path = pyincore-incubator
+	url = https://github.com/IN-CORE/pyincore-incubator.git

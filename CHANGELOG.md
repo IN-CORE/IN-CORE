@@ -6,6 +6,73 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 This repository links to each of the other repositories making up the IN-CORE code. You can find more details about the changes for  each of the components of IN-CORE in their respective repositories.
 
+## [6.1.0] - 2025-07-31
+
+IN-CORE v6.1.0 has been released. This release includes the following updates:
+
+- pyIncore v1.22.0
+- pyIncore-viz v1.12.0
+- pyIncore-data v1.0.0
+- pyIncore-incubator v0.1.0
+- IN-CORE Studio v1.0.0
+- IN-CORE Web Tools v1.15.0
+- IN-CORE Web services v1.29.0
+- IN-CORE Documentation v4.16.0
+- IN-CORE lab v1.11.0
+
+Please visit https://tools.in-core.org for detailed information on changes to each component.
+
+Please note that the landing page address of IN-CORE has been changed to https://tools.in-core.org. The old address, https://incore.ncsa.illinois.edu, will work for a while, but we highly recommend using the new address for your code.
+
+The currently released version of pyIncore has been published at PyPi. Note that it is not officially supported by the IN-CORE dev team and is only tested on the Linux platform. Please use it at your discretion.
+
+This release includes two new components 1) IN-CORE Studio is a web application and 2) pyincore-incubator which contains the community contributions
+
+Some highlights of this release are as follows:
+
+- IN-CORE Studio v1.0.0
+  - First official release
+- pyIncore v1.22.0
+  - Added an analysis of ML enabled CGE for Galveston Island
+  - Added an analysis of ML enabled CGE for Seaside
+  - Added an analysis of ML enabled CGE for Lumberton
+  - Added soil type dataset parameter to building structural damage analysis
+  - Fixed bug using retrofit dataset with local building dataset
+  - Updated network analyses to check if a network dataset was specified as an input
+- pyIncore-viz v1.12.0
+  - Removed deprecated methods for visualizing web map service (WMS) layers
+  - Added automatic code format check
+- pyIncore-data v1.0.0
+  - Added python utility to generate IN-CORE building data from National Structure Inventory (NSI) data for
+  Earthquake, Tsunami, Hurricane and Flood in shapefile or geopackage format.
+  - Fixed documentation container build
+- pyincore-incubator v0.1.0
+  - Initial release of pyincore-incubator
+  - Added independent recovery analysis
+  - Added electric power network recovery analysis
+  - Fixed Sphinx documentation build error
+- IN-CORE Web services v1.29.0
+  - Added PATCH endpoint to update visualization fields, including layer order and layers
+  - Added project’s tool endpoint that initiate NSI data creation, registration, download, and query
+  - Added workflow metadata support, including filtering datasets by workflow ID and execution ID, and a new PATCH
+    endpoint to update individual dataset metadata.
+  - Added support joining with source dataset on PUT endpoint and publishing the result to GeoServer
+- IN-CORE Documentation v4.16.0
+  - Added notebooks of
+    - pyIncore-data NSI example
+    - ML enabled Galveston CGE
+    - ML enabled Mobile CGE
+    - ML enabled Seaside CGE
+  - Removed code of deprecated WMS support from pyincore-viz example notebook
+  - Removed code of deprecated analyses, and fixed case-inconsistency and cleaned up table of contents
+- IN-CORE Lab v1.11.0
+  - Updated to use pyIncore v1.22.0, pyIncore-viz v1.12.0, and pyIncore-data v1.0.0
+
+New dataset:
+- Seaside testbed Building to sectors table - 682f9b519af67e76625f6ece
+- Mobile testbed Building to sectors table - 684877df9af67e766267ead7
+
+
 ## [6.0.0] - 2025-02-19
 
 IN-CORE v6.0.0 has been released. This release includes the following updates:
