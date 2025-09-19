@@ -6,6 +6,33 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 This repository links to each of the other repositories making up the IN-CORE code. You can find more details about the changes for  each of the components of IN-CORE in their respective repositories.
 
+## [6.2.0] - 2025-09-17
+
+IN-CORE v6.2.0 has been released. This release includes the following updates:
+
+- IN-CORE Studio v1.1.0
+- IN-CORE Web Tools v1.16.0
+- IN-CORE Web services v1.30.0
+
+Please visit https://tools.in-core.org for detailed information on changes to each component.
+
+Please note that the landing page address of IN-CORE has been changed to https://tools.in-core.org. The old address, https://incore.ncsa.illinois.edu, will work for a while, but we highly recommend using the new address for your code.
+
+The currently released version of pyIncore has been published at PyPi. Note that it is not officially supported by the IN-CORE dev team and is only tested on the Linux platform. Please use it at your discretion.
+
+This release includes minor updates to IN-CORE Studio, the landing page and a fix for usernames that contain a period in them.
+
+Some highlights of this release are as follows:
+
+- IN-CORE Studio v1.1.0
+  - Added NSI option to create building inventory data from NSI data
+- IN-CORE Web Tools v1.16.0
+  - Fixed community playbook page not displaying correctly
+- IN-CORE Web services v1.30.0
+  - Upgraded Morphia library to 2.4.18 to fix bug with "." in usernames
+  - Added missing Sadigh et al 1997 attenuation model
+
+
 ## [6.1.0] - 2025-07-31
 
 IN-CORE v6.1.0 has been released. This release includes the following updates:
