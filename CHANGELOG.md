@@ -6,6 +6,20 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 This repository links to each of the other repositories making up the IN-CORE code. You can find more details about the changes for  each of the components of IN-CORE in their respective repositories.
 
+## [6.3.0] - 2025-12-15
+
+IN-CORE v6.3.0 has been released. This release includes the following updates:
+
+- IN-CORE Studio v1.2.0
+
+Please visit https://tools.in-core.org for detailed information on changes to each component.
+
+Some highlights of this release are as follows:
+
+- IN-CORE Studio v1.2.0
+  - Fixed bug resubmitting studio workflow executions with previous execution parameters and intermittent workflow execution failures
+
+
 ## [6.2.0] - 2025-09-17
 
 IN-CORE v6.2.0 has been released. This release includes the following updates:
