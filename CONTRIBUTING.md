@@ -4,6 +4,8 @@ By participating in this project, you agree to abide by our [Code of Conduct](CO
 
 Please discuss your ideas and contributions with the community on the Slack (https://in-core.slack.com, #developer channel) or at the Github Discussions. 
 
+For how to set up a local development environment and run the tests for each repository, see [DEVELOPMENT.md](DEVELOPMENT.md).
+
 ## Code Contribution
 ### Workflow
 
@@ -46,6 +48,8 @@ Make sure to get feedback from the community on your proposed solution before st
 
 Tests should be included with new contributions to verify they run and to assist in the review process. In addition, we welcome contributions of tests to existing features as well.
 
+See [DEVELOPMENT.md](DEVELOPMENT.md) for the exact command to run the test suite in each repository, and for what to regenerate after changing a dependency so that you are not testing against a stale environment.
+
 ### Continuous Integration
 
 All pull requests will be built automatically by the GitHub actions.
@@ -53,6 +57,8 @@ All pull requests will be built automatically by the GitHub actions.
 ### Documentation
 
 User and developer documentation is available in the source (https://github.com/IN-CORE/incore-docs) and [online](https://incore.ncsa.illinois.edu/doc/incore/index.html)
+
+Developer environment setup and test instructions for all repositories live in [DEVELOPMENT.md](DEVELOPMENT.md) in this repository.
 
 ## Data Contribution
 
