@@ -32,3 +32,10 @@ This is the list of releases for IN-CORE v6.3.0
 | pyincore-data | v1.0.0 |
 | pyincore-incubator | v0.1.0 |
 | pyincore-viz | v1.12.0 |
+
+## License
+
+Licensing in this repository is split by content type:
+
+- **Documentation** (README, CONTRIBUTING, Code of Conduct, and related markdown) is licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/). See [LICENSE-DOCS](LICENSE-DOCS).
+- **Source code** (`update.sh` and GitHub Actions workflows) is licensed under the [Mozilla Public License 2.0](https://www.mozilla.org/MPL/2.0/). See [LICENSE](LICENSE).
